@@ -16,7 +16,7 @@ export default function Series(props) {
 
   return series.map((serie) => (
     <Tr>
-        <Td>{serie.ExerciceId}</Td>
+        <Td>{serie.ex_name}</Td>
         <Td>{serie.serie_reps}</Td>
         <Td>{serie.serie_poids}</Td>
     </Tr>
